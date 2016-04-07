@@ -17,13 +17,18 @@ ul {
 #nav-bar {
     list-style-type: none;
     float: right;
-    font-size: 16px;
-    color:#515151;
-    padding: 1%;
+    /*font-size: 16px;*/
+    /*color:#515151;*/
+    padding: 1% 10%;
 }
 #nav-bar li {
     display: inline-block;
-    margin-left: 1em;
+    margin-left: 2em;
+}
+#nav-bar li a {
+    text-decoration: none;
+    font-size: 16px;
+    color:#515151;
 }
 #welcome_image {
     height: 400px;
@@ -128,7 +133,7 @@ footer {
    display: inline-block;
 }
 .footer_img {
-margin-left: 1em;
+margin-left: 2em;
 }
 .footer_last_line {
     text-align: center;
