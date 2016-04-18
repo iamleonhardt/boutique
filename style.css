@@ -1,1 +1,140 @@
-/* Add your CSS here */
+* {
+    font-family: Arial, Helvetica, SansSerif;
+    box-sizing: border-box;
+}
+body{
+    width: 1000px;
+    line-height: 1.1em;
+}
+header {
+    height: 72px;
+    background:#fffabe url("assets/images/logo.png") no-repeat;
+    background-position: 5%;
+}
+ul {
+    list-style-type: none;
+}
+#nav-bar {
+    list-style-type: none;
+    float: right;
+    /*font-size: 16px;*/
+    /*color:#515151;*/
+    padding: 1% 10%;
+}
+#nav-bar li {
+    display: inline-block;
+    margin-left: 2em;
+}
+#nav-bar li a {
+    text-decoration: none;
+    font-size: 16px;
+    color:#515151;
+}
+#welcome_image {
+    height: 400px;
+}
+img {
+    max-width: 100%;
+}
+#welcome_content {
+    position: relative;
+    margin: 5vh 5vw;
+}
+#welcome_side, #welcome_text_content {
+    display: inline-block;
+    position: relative;
+}
+#welcome_content h2 {
+    margin: 6vh 0;
+    font-size: 20px;
+    color: #6a6969;
+}
+#welcome_side {
+    padding: 11% 3%;
+    height: 100%;
+    width:25% ;
+    float: left;
+}
+/*#welcome_side_image {*/
+    /*height: 40vh;*/
+    /*display: block;*/
+/*}*/
+#welcome_text_content {
+    width: 75%;
+    font-size: 14px;
+    color: #6a6969;
+    padding: 0 5%;
+}
+#welcome_samples {
+    box-sizing: content-box;
+    position: relative;
+    margin: 5vh 1.5%;
+    /*margin: 5vh 5vw;*/
+}
+.samples {
+    box-sizing: content-box;
+    display: inline-block;
+    background-color: #fffabe;
+    margin:3vh 3px;
+    width: 126px;
+    height: 140px;
+    color: #6a6969;
+    padding:0;
+}
+.samples p {
+    margin: 0;
+    padding:1% 5%;
+    height: 25%;
+}
+.samples p:nth-child(1) {
+    padding-top: 7%;
+}
+.samples p:nth-child(2) {
+    padding-bottom: 7%;
+}
+.samples p img {
+    float: right;
+}
+.font_sample {
+    font-size: 12px;
+}
+.first_line {
+    font-size: 14px;
+}
+.color_chocolate {
+    background-color: #824603;
+    color: #fff;
+}
+.color_vanilla {
+  background-color: #df5277;
+    color: #fff;
+}
+.color_lemon {
+  background-color:#a2304e ;
+    color: white;
+}
+.color_almond {
+    background-color: #c39005;
+    color: white;
+}
+
+footer {
+    height: 80px;
+    background-color: #df5277;
+    color: white;
+    font-size: 12px;
+}
+#inner_footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5%;
+}
+#inner_footer li{
+   display: inline-block;
+}
+.footer_img {
+margin-left: 2em;
+}
+.footer_last_line {
+    text-align: center;
+}
