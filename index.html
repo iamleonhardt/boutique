@@ -12,7 +12,7 @@
     <header>
         <img id="logo" src="images/logo.png" alt="M Boutique logo">
         <ul class="nav">
-            <li><a href="#index">Welcome</a></li>
+            <li><a href="#/">Welcome</a></li>
             <li><a href="#macarons">Our Macarons</a></li>
             <li><a href="#parties">Gifts & Parties </a></li>
             <li><a href="#contact">Contact</a></li>
@@ -48,8 +48,10 @@
                 .when('/contact', {
                     templateUrl: 'contact.html'
                 })
+                .otherwise({
+            redirectTo: '/'
+        });
     });
-
 </script>
 
 </body>
