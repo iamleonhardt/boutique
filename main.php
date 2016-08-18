@@ -1,10 +1,38 @@
 <section class="clearfix">
 
-
-
     <img id="welcome" src="images/welcome-image.png" alt="A pile of delicious macarons">
 
-    <div class="leftImg"><img id="macarons" src="images/macarons-image.png" alt="graphic design of macarons"></div>
+
+    <div class="leftImg">
+
+
+        <?php
+
+        ?>
+
+        <?php
+
+        $today = date('m-d');
+        $holidays = [
+            '12-25' => [
+                'stylesheet' => 'christmas'
+            ],
+            '07-04' => [
+                'stylesheet' => 'fourthofjuly.css'
+            ]
+        ];
+
+        if(isset( $holidays[$today] )){
+            print('it exists');
+        } else {
+            print('it doesnt exit');
+        }
+
+        include('christmas.php');
+        ?>
+
+
+<!--        <img id="macarons" src="images/macarons-image.png" alt="graphic design of macarons"></div>-->
     <div class="mainText">
         <h2>Welcome to MBoutique!</h2>
         <p>We are a home-based baking business that specializes in the making of French macarons, a gluten-free
@@ -95,7 +123,7 @@
         </div>
         <div class="treat"><p>caramel<img class="treatImg" src="images/caramel.png" alt="caramel macaron"></p></div>
         <div id="almond" class="treat"><p>almond<img class="treatImg" src="images/almond.png" alt="almond macaron">
-        </p>
+            </p>
         </div>
     </div>
 </div>
