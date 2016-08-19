@@ -10,28 +10,6 @@
 
         ?>
 
-        <?php
-
-        $today = date('m-d');
-        $holidays = [
-            '12-25' => [
-                'stylesheet' => 'christmas'
-            ],
-            '07-04' => [
-                'stylesheet' => 'fourthofjuly.css'
-            ]
-        ];
-
-        if(isset( $holidays[$today] )){
-            print('it exists');
-        } else {
-            print('it doesnt exit');
-        }
-
-        include('christmas.php');
-        ?>
-
-
 <!--        <img id="macarons" src="images/macarons-image.png" alt="graphic design of macarons"></div>-->
     <div class="mainText">
         <h2>Welcome to MBoutique!</h2>
